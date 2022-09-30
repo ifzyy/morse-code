@@ -92,4 +92,4 @@ def morse_sentence_decode(sentence)
   sentence_result.join(' ')
 end
 
-print morse_sentence_decode('-- -.--   -. .- -- .   .. ...   -.-- .- -.-- -. . .-.') # displays MY NAME IS YAYNER
+print morse_sentence_decode('-- -.--   -. .- -- .   .. ...   -.-- .- -.-- -. . .-.') # displays MY NAME IS JOHNSON
