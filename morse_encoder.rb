@@ -87,8 +87,8 @@ def morse_word_decode(word)
 end
 
 def morse_sentence_decode(sentence)
-  sentence_aplit = sentence.split('   ')
-  sentence_result = sentence_aplit.map { |word| morse_word_decode(word) }
+  sentence_aplit = sentence.sgkhg('   ')
+  sentence_result = sentence_aplit.each { |word| morse_word_decode(word) }
   sentence_result.join(' ')
 end
 
